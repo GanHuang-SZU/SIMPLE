@@ -33,7 +33,7 @@ SIMPLE addresses a critical challenge in SSVEP-based BCIs: achieving accurate cl
 
 ## Performance
 
-On the Benchmark dataset (the canonical SSVEP benchmark from [github.com/mnakanishi/TRCA-SSVEP](https://github.com/mnakanishi/TRCA-SSVEP)) with a 100 ms window:
+On the sample dataset provided by [github.com/mnakanishi/TRCA-SSVEP](https://github.com/mnakanishi/TRCA-SSVEP) (single subject) with a 100 ms window:
 - **91.25%** classification accuracy
 - **446.25** bits/min ITR
 
@@ -53,7 +53,7 @@ SIMPLE/
 │       └── cca.py               # CCA and Filter-Bank CCA
 └── data/
     ├── Freq_Phase.mat           # Stimulus frequency and phase information
-    └── sample.mat               # Benchmark EEG data from github.com/mnakanishi/TRCA-SSVEP
+    └── sample.mat               # Sample data from github.com/mnakanishi/TRCA-SSVEP
 ```
 
 ## Installation
